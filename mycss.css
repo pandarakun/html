@@ -148,25 +148,24 @@ input[type=reset]{
 }
 
 
-.show{
-  background-color: rgba(250, 247, 247, 0.417);
+
+
+.show {
   width: 60%;
   height: 20%;
-  position:absolute;
-  top:10%;
-  right:10%;
-  color:black;
+  background-color: rgba(238, 235, 235, 0.575);
+  color: black;
+  position: absolute;
+  top: 10%;
+  right: 10%;
   text-align: center;
-  padding:20px 0;
-  animation: 6s showText infinite;
-  letter-spacing: 1.2px;
-  line-height: 1.5;
+  padding: 20px 0;
+  animation: 6s showtext infinite;
 }
 
-@keyframes showText{
-  0% {opacity:0;}
-  30%{opacity: 1;}
-  60%{opacity: 1;}
-  100%{opacity:0;}
+@keyframes showtext {
+  0% {opacity: 0;}
+  30% {opacity: 1;}
+  60% {opacity: 1;}
+  100% {opacity: 0;}
 }
-
